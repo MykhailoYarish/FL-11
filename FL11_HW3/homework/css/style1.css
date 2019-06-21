@@ -1,0 +1,187 @@
+.line_under_word, header .header_heading::before, main.section p.section_text::before, .section_card p.section_card_heading::before, .section_banner .section_banner_heading::before {
+  content: "";
+  background: #14a0c7;
+  position: absolute;
+  z-index: -1; }
+
+header,
+main,
+footer {
+  padding: 15px 10%; }
+
+body {
+  background-color: white;
+  margin: 0px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  color: #2c2f3c; }
+
+header {
+  background-image: url("../img/m-h-day.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  padding-right: 50%;
+  padding-bottom: 124px;
+  border-bottom-right-radius: 50%; }
+  header .header_heading {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 42px;
+    position: relative;
+    font-family: "Source Sans Pro", sans-serif;
+    z-index: 1; }
+    header .header_heading::before {
+      width: 270px;
+      height: 20px;
+      left: 1px;
+      bottom: 8px; }
+  header .header_text {
+    margin-bottom: 64px; }
+
+.landing-logo p {
+  margin-left: 8px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Source Sans Pro", sans-serif; }
+  .landing-logo p span {
+    display: block;
+    font-size: 10px; }
+.landing-logo img {
+  margin-bottom: -6px; }
+
+.header_button, .section_banner .section_banner_button {
+  color: white;
+  background-color: #699900;
+  padding: 14px 36px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700; }
+
+main.section {
+  padding-bottom: 180px;
+  position: relative;
+  text-align: center;
+  background: white; }
+  main.section p.section_text {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    font-family: "Hind", sans-serif;
+    z-index: 1; }
+    main.section p.section_text::before {
+      width: 160px;
+      height: 10px;
+      left: 205px;
+      bottom: 15px; }
+
+.section_card_wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+.section_card {
+  display: inline-block;
+  padding: 14px;
+  border-radius: 4px;
+  margin-left: 1%;
+  margin-right: 1%;
+  background: #21232e;
+  color: #c0c3ce;
+  width: 30%; }
+  .section_card img.section_card_img {
+    width: 100%;
+    border-radius: 4px; }
+  .section_card p.section_card_heading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    display: inline-block;
+    color: white;
+    position: relative;
+    font-family: "Source Sans Pro", sans-serif;
+    z-index: 1; }
+  .section_card:nth-child(1) p.section_card_heading::before {
+    width: 152px;
+    height: 10px;
+    left: 0;
+    bottom: 0; }
+  .section_card:nth-child(2) p.section_card_heading::before {
+    width: 128px;
+    height: 10px;
+    left: 0;
+    bottom: 0; }
+  .section_card:nth-child(3) p.section_card_heading::before {
+    width: 98px;
+    height: 10px;
+    left: 0;
+    bottom: 0; }
+  .section_card p.section_card_text {
+    font-size: 14px;
+    line-height: 1.5; }
+
+.section_banner {
+  border-radius: 8px;
+  width: 50%;
+  margin: auto;
+  background: #699900;
+  background: linear-gradient(90deg, #699900 24%, #14a0c7 68%);
+  padding: 30px 80px 18px 80px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -66px; }
+  .section_banner p {
+    margin: 0px;
+    margin-bottom: 12px; }
+  .section_banner::after {
+    display: table;
+    content: "";
+    clear: both; }
+  .section_banner .section_banner_text_wrap {
+    float: left;
+    text-align: left; }
+  .section_banner .section_banner_heading {
+    font-size: 28px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Source Sans Pro", sans-serif;
+    z-index: 2; }
+    .section_banner .section_banner_heading::before {
+      width: 57px;
+      height: 10px;
+      left: 114px;
+      bottom: 4px;
+      z-index: -1; }
+  .section_banner .section_banner_text {
+    font-size: 14px;
+    color: #c0c3ce;
+    font-family: "Source Sans Pro", sans-serif; }
+  .section_banner .section_banner_button {
+    float: right;
+    margin-top: 12px; }
+
+footer {
+  background: #21232e;
+  color: #c0c3ce;
+  padding-bottom: 40px;
+  padding-top: 120px; }
+
+.footer-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+  .footer-wrap div,
+  .footer-wrap p,
+  .footer-wrap span {
+    display: inline-block; }
+  .footer-wrap p.footer_text {
+    width: 30%; }
+
+.footer_logo.landing-logo {
+  width: 15%; }
