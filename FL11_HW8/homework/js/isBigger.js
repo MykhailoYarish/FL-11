@@ -1,5 +1,5 @@
-function isBigger(numberToCompare, comparingValue){
- return numberToCompare > comparingValue;
+function isBigger(numberToCompare, comparingValue) {
+  return numberToCompare > comparingValue;
 }
 
-isBigger(5,-1);
+isBigger(5, -1);
