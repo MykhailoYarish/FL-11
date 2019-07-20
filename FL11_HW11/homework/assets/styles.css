@@ -1,0 +1,97 @@
+/* Your styles goes here */
+
+h1{
+    text-align: center;
+    color: #5dbbf5;
+}
+#root{
+    margin: 4vw 15vw;
+}
+ul{
+    list-style-type: none;
+    padding: 0px;
+}
+#new-todo-text{
+    padding: 12px;
+    min-width: 90%;
+}
+
+button{
+    cursor: pointer;
+}
+
+#add-button{
+    background: lightgray;
+    border: none;
+    margin-left: 16px;
+    padding: 6px 8px;
+    border-radius: 4px;
+    color: white;
+    vertical-align: top;
+}
+span{
+    display: inline-block;
+}
+.todo-title{
+    width:33%;
+    display: none;
+    vertical-align: top;
+    font-size: 14px;
+    color: black;
+    padding: 8px;
+}
+
+.edit-todo i, .remove-todo i, .save-todo i{
+    color:lightskyblue;
+}
+
+.remove-todo{
+    float:right;
+}
+
+.edit-todo,.check-blank , .remove-todo, .save-todo{
+    background: none;
+    border:none;
+}
+
+.save-todo{
+    display: none;
+}
+
+.check-blank i{
+    color: #9e9e9e;
+}
+input:disabled{
+  background: none;
+  border:none;
+}
+
+#progress-bar{
+    margin: 20px 0px;
+    height: 6px;
+    background: aliceblue;
+}
+
+#progress{
+    height: 100%;
+    width: 0%;
+    background: #00f1ff;
+    display: block;
+}
+
+#notification{
+    color: #f35454;
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+.todo-item{
+    margin-bottom: 12px;
+}
+
+.todo-text{
+    display: inline;
+    vertical-align: top;
+    font-size: 20px;
+    color: #5dbbf5;
+}
